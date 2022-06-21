@@ -99,11 +99,6 @@ const Breakfast = () => {
             </FlexMenu>
           </GridAuto>
         </div> */}
-        <Dietary className="spacing">
-          <p className="upper italics">
-            special dietary items available upon request
-          </p>
-        </Dietary>
         <GridAuto>
           <Review
             name="Rachel McLachlan"

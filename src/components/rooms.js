@@ -126,7 +126,8 @@ export default function Rooms() {
                   book now
                 </AnchorOutline>
                 <p>
-                  from <span className="bold">$129</span> per night
+                  2+ nights: <span className="bold">$129</span> per night <br />
+                  1 night: <span className="bold">$179</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -151,7 +152,8 @@ export default function Rooms() {
                   book now
                 </AnchorOutline>
                 <p>
-                  from <span className="bold">$129</span> per night
+                  2+ nights: <span className="bold">$129</span> per night <br />
+                  1 night: <span className="bold">$179</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -173,7 +175,8 @@ export default function Rooms() {
                   book now
                 </AnchorOutline>
                 <p>
-                  from <span className="bold">$129</span> per night
+                  2+ nights: <span className="bold">$129</span> per night <br />
+                  1 night: <span className="bold">$179</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -197,7 +200,8 @@ export default function Rooms() {
                   book now
                 </AnchorOutline>
                 <p>
-                  from <span className="bold">$129</span> per night
+                  2+ nights: <span className="bold">$129</span> per night <br />
+                  1 night: <span className="bold">$179</span> per night
                 </p>
               </ButtonWrapper>
             </Item>

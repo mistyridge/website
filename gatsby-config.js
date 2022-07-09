@@ -3,7 +3,8 @@ module.exports = {
     title: "title",
     titleTemplate: "%s | Misty Ridge Retreat B&B",
     description: "description",
-    url: "https://www.bookwithkathryn.com", // No trailing slash allowed!
+    url: "https://www.mistyridgeretreatbandb.com", // No trailing slash allowed!
+    siteUrl: "https://www.mistyridgeretreatbandb.com",
     image: "/images/logo.svg", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
@@ -20,6 +21,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

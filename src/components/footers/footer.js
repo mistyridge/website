@@ -287,12 +287,18 @@ export default function Footer() {
               <li>{Info.name}</li>
               <li>All Rights Reserved</li>
               <li>
-                <a target="blank" href="">
+                <a
+                  target="_blank"
+                  href="https://www.mistyridgeretreatbandb.com/terms-of-use"
+                >
                   Terms of use
                 </a>
               </li>
               <li>
-                <a target="blank" href="">
+                <a
+                  target="-blank"
+                  href="https://www.mistyridgeretreatbandb.com/privacy-policy"
+                >
                   Privacy Policy
                 </a>
               </li>

@@ -194,11 +194,11 @@ export default function TermsOfUse() {
                         data-type="question"
                       >
                         <a
-                          href="http://www.mistyridgeretreatband.com"
+                          href="http://www.mistyridgeretreatbandb.com"
                           target="_blank"
                           data-custom-class="link"
                         >
-                          http://www.mistyridgeretreatband.com
+                          http://www.mistyridgeretreatbandb.com
                         </a>
                       </bdt>{" "}
                       website as well as any other media form, media channel,
@@ -4376,11 +4376,11 @@ export default function TermsOfUse() {
                             data-type="question"
                           >
                             <a
-                              href="http://www.mistyridgeretreatband.com/privacy-policy"
+                              href="http://www.mistyridgeretreatbandb.com/privacy-policy"
                               target="_blank"
                               data-custom-class="link"
                             >
-                              http://www.mistyridgeretreatband.com/privacy-policy
+                              http://www.mistyridgeretreatbandb.com/privacy-policy
                             </a>
                           </bdt>
                         </b>
@@ -6017,7 +6017,7 @@ export default function TermsOfUse() {
                       data-id="fdc2b5b8-c95f-244b-23a7-287f82541348"
                       data-type="question"
                     >
-                      <strong>kathryn@bookwithkathryn.com</strong>
+                      <strong>{Info.mail1}</strong>
                     </bdt>
                   </span>
                 </div>

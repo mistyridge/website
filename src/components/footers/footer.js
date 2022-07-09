@@ -221,8 +221,11 @@ export default function Footer() {
               </ul>
               <Socials>
                 <div>
-                  <a target="black" href="https://www.facebook.com/">
-                    <img src={Facebook} alt="" />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/mistyridgeretreatbb/"
+                  >
+                    <img src={Facebook} alt="misty ridge retreat" />
                   </a>
                 </div>
               </Socials>

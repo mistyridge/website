@@ -13,7 +13,10 @@ import CtaImg from "../images/bed-and-breakfast-calgary.jpeg"
 export default function explore() {
   return (
     <Layout>
-      <SEO title="Explore" description="" />
+      <SEO
+        title="Explore"
+        description="The Misty Ridge Retreat Bed & Breakfast is centrally located to many nearby attractions, you will never run out of things to do!"
+      />
       {/* <BannerPrimary
         title="Explore The Area"
         description="The Misty Ridge Retreat Bed & Breakfast is centrally located to many nearby attractions, you will never run out of things to do!"

@@ -308,6 +308,11 @@ export default function HeaderBasic() {
                         yoga retreats
                       </StyledLink>
                     </li>
+                    <li>
+                      <StyledLink to="/groups-and-events/practitioner-training">
+                        practitioner training
+                      </StyledLink>
+                    </li>
                   </ul>
                 </Dropdown>
                 <li>

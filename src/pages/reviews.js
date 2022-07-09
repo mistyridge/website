@@ -9,7 +9,10 @@ import Review from "../components/review"
 export default function Reviews() {
   return (
     <Layout>
-      <SEO title="Guest Reviews" description="" />
+      <SEO
+        title="Guest Reviews"
+        description="We have received nothing but 5-star reviews from the Misty Ridge Retreat B&B guests! Visit our reviews page to read about guest experiences."
+      />
       <BannerPrimary
         title="reviews"
         description="The recent guests of the Misty Ridge Retreat B&B have had a 5-star experience with us! Read what they have said!"

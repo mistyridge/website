@@ -38,7 +38,10 @@ const ImgGrid = styled.div`
 export default function Weddings() {
   return (
     <Layout>
-      <SEO title="Outdoor Wedding Venue at our Calgary B&B" description="" />
+      <SEO
+        title="Outdoor Wedding Venue at our Calgary B&B"
+        description="Welcome to the Misty Ridge B&B that can be the perfect setting for your small intimate wedding located just outside of Calgary on our 6.5 acres of unique land in the beautiful rolling foothills of Alberta. Book your wedding with us today!"
+      />
       <BannerSecondary
         title="the perfect venue for your small wedding"
         description="Welcome to the Misty Ridge B&B that can be the perfect setting for your small intimate wedding located just outside of Calgary on our 6.5 acres of unique land in the beautiful rolling foothills of Alberta"

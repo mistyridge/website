@@ -10,7 +10,10 @@ import InfoBanner from "../components/infoBanner"
 export default function Contact() {
   return (
     <Layout>
-      <SEO title="Contact Us" description="" />
+      <SEO
+        title="Contact Us"
+        description="Have any questions about the Misty Ridge Retreat B&B? Use the form below to get in touch with us! We typically respond within 12 hours."
+      />
       <BannerPrimary
         title="contact"
         description="Have any questions about the Misty Ridge Retreat B&B? Use the form below to get in touch with us! We typically respond within 12 hours."

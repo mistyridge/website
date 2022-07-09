@@ -7,7 +7,10 @@ import InfoBanner from "../components/infoBanner"
 export default function GroupsEvents() {
   return (
     <Layout>
-      <SEO title="Groups and Events" description="" />
+      <SEO
+        title="Groups and Events"
+        description="The Misty Ridge Retreat B&B can host a variety of small and large events such as weddings, yoga retreats, honey moons, and more! Ask as about the packages we can offer for you upcoming event!"
+      />
       <Offers />
       <InfoBanner />
     </Layout>

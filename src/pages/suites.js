@@ -11,7 +11,10 @@ import SEO from "../components/seo"
 export default function Suites() {
   return (
     <Layout>
-      <SEO title="Rooms & Suites" description="" />
+      <SEO
+        title="Rooms & Suites"
+        description="We offer cozy spa-like beds and bathrooms that you won’t want to leave!"
+      />
       <BannerPrimary
         title="Rooms & Suites"
         description="We offer cozy spa-like beds and bathrooms that you won’t want to leave!"

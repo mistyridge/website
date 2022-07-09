@@ -9,7 +9,10 @@ import CtaImg from "../images/coyote.jpg"
 export default function Gallery() {
   return (
     <Layout>
-      <SEO title="Gallery" description="" />
+      <SEO
+        title="Gallery"
+        description="Are you ready to reconnect with nature? Visit the online gallery of our bed and breakfast to see the types of animals you might witness during your stay!"
+      />
       <GalleryGrid />
       <CallToAction
         img={CtaImg}

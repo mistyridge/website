@@ -22,7 +22,10 @@ import Rooms from "../../components/rooms"
 export default function YogaRetreats() {
   return (
     <Layout>
-      <SEO title="Alberta Yoga Retreat at our B&B" description="" />
+      <SEO
+        title="Alberta Yoga Retreat at our B&B"
+        description="Welcome to the Misty Ridge B&B that can be the perfect setting for you to lead a yoga retreat or workshop! Book your next workshop with us today!"
+      />
       <BannerSecondary
         title="the perfect spot to lead a yoga retreat or workshop!"
         description="Welcome to the Misty Ridge B&B that can be the perfect setting for you to lead a yoga retreat or workshop!"

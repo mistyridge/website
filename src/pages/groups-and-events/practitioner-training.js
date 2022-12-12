@@ -1,39 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 import SEO from "../../components/seo"
-import BannerSecondary from "../../components/banners/bannerSecondary"
-import EventCallToAction from "../../components/eventCallToAction"
-import Experience from "../../components/experience"
-import InfoBanner from "../../components/infoBanner"
 import Layout from "../../components/layout"
-import Wildlife from "../../components/wildlife"
-import Features from "../../components/features"
-import Breakfast from "../../components/breakfast"
-import Map from "../../components/map"
-import More from "../../components/more"
-import Rooms from "../../components/rooms"
-import Review from "../../components/review"
-import {
-  GridTwo,
-  GridAuto,
-  Flex,
-  Section,
-  Container,
-} from "../../components/layoutComponents"
+import { Flex, Section, Container } from "../../components/layoutComponents"
 import { StaticImage } from "gatsby-plugin-image"
 import { AnchorInline, ButtonInline } from "../../components/buttons"
-
-import CtaImg from "../../images/weddings/land-for-wedding.jpeg"
-
-const GridItem = styled.div`
-  box-shadow: var(--shadow-light);
-  padding: 2em;
-`
-
-const ImgGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
-`
 
 export default function PractitionerTraining() {
   return (

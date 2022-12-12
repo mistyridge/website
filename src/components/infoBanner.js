@@ -44,8 +44,8 @@ export default function InfoBanner() {
             />
             <h3 className="body--large">rates</h3>
             <p>
-              We offer 4 unique rooms at $129 per night (for 2 nights or more),
-              or $812 weekly.
+              We offer 4 unique rooms at $140 per night (for 2 nights or more),
+              or $190 for just 1 night.
             </p>
             <AnchorSecondary
               href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"

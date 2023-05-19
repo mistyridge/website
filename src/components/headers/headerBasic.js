@@ -312,6 +312,7 @@ export default function HeaderBasic() {
                       <StyledLink to="/groups-and-events/practitioner-training">
                         practitioner training
                       </StyledLink>
+                    </li>
                     <li>
                       <StyledLink to="/groups-and-events/enlightened-heart-retreat">
                         enlightened heart retreat

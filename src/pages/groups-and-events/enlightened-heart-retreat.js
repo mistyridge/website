@@ -24,7 +24,7 @@ export default function HeartRetreat() {
   return (
     <Layout>
       <SEO
-        title="Enlightened Heart Retreat"
+        title="Enlightened Heart Retreat Alberta"
         description="A women’s weekend of connection, healing, sacred sound and heart medicine."
       />
       <BannerSecondary

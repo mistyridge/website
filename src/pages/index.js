@@ -69,7 +69,22 @@ export default function Home() {
         description="Welcome to The Misty Ridge Retreat B&B! Our Bed and Breakfast Calgary, AB is just minutes from the city and nestled in the beautiful rolling Alberta Foothills. Book your stay and enjoy a retreat to relax and reconnect with nature and to get away from it all!"
       />
       <Hero />
-
+      <Section>
+        <Container className="spacing">
+          <h2 className="title bold caps center accent">yurt grand opening!</h2>
+          <p className="center">
+            Mark your calendar for <span className="bold">June 17th, 2023</span>{" "}
+            as we will be holding the grand opening for our Yurt on the Misty
+            Ridge B&B Retreat!
+          </p>
+          <div>
+            <StaticImage src="../images/yurt.jpg" alt="calgary b&b yurt" />
+            <p className="body--small italics bold center">
+              The MRR team working hard over the May long weekend!
+            </p>
+          </div>
+        </Container>
+      </Section>
       <Section className="spacing">
         <Container></Container>
         <h1 className="title bold caps center accent">

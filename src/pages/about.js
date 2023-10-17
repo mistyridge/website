@@ -13,7 +13,7 @@ export default function About() {
         description="Book now to get away from it all! Enjoy a scrumptious breakfast with absolutely stunning scenery, walking trails, wildlife, outdoor gathering spaces, and much more!"
       />
       <BannerPrimary
-        title="welcome to our little peice of paradise"
+        title="welcome to our little piece of paradise"
         description="Book now to get away from it all! Enjoy a scrumptious breakfast with absolutely stunning scenery, walking trails, wildlife, outdoor gathering spaces, and much more!"
         to1="/"
         link1="Home"

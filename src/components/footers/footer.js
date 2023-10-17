@@ -227,6 +227,12 @@ export default function Footer() {
                   >
                     <img src={Facebook} alt="misty ridge retreat" />
                   </a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/mistyridgeretreat/"
+                  >
+                    <img src={Instagram} alt="misty ridge retreat" />
+                  </a>
                 </div>
               </Socials>
             </FlexItem>
@@ -283,7 +289,7 @@ export default function Footer() {
           <hr />
           <Copyright>
             <ul>
-              <li>Copyright&#169; 2022</li>
+              <li>Copyright&#169; 2023</li>
               <li>{Info.name}</li>
               <li>All Rights Reserved</li>
               <li>

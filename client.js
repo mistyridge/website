@@ -14,7 +14,7 @@ const defaultOptions = {
 
 const httpLink = createHttpLink({
   uri: `https://graphql.contentful.com/content/v1/spaces/${String(
-    process.env.CONTENTFUL_SPACE_ID
+    process.env.GATSBY_CONTENTFUL_SPACE_ID
   )}`,
 });
 
@@ -22,7 +22,7 @@ const authLink = setContext((_, { headers }) => ({
   headers: {
     ...headers,
     ["Content-Type"]: "application/json",
-    ["Authorization"]: `Bearer ${process.env.DELIVERY_API_TOKEN}`,
+    ["Authorization"]: `Bearer ${process.env.GATSBY_DELIVERY_API_TOKEN}`,
   },
 }));
 

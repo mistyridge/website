@@ -37,4 +37,5 @@ margin-bottom: 10px;
 .doc-wrap {
   margin-top: 20px;
   margin-bottom: 50px;
+  display: flex;
 }

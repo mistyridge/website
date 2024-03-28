@@ -17,13 +17,13 @@ const Text = styled.div`
 
 const Review = styled.div``
 
-export default function OffersDynamic({ datas }) {
+export default function OffersDynamic({tag ,title, datas }) {
 
     console.log(datas,'vksdko')
   return (
     <Section>
       <Container className="spacing">
-        <h2 className="title accent bold caps">Events</h2>
+        <h2 className="title accent bold caps">{title}</h2>
         <div className="spacing">
           {datas?.map((data ) => {
             return (
@@ -49,7 +49,7 @@ export default function OffersDynamic({ datas }) {
                         held." <br /> ~ Luke Rosewood
                       </p>
                     </Review>
-                    <ButtonPrimary to={`/events/${data?.slug}`}>
+                    <ButtonPrimary to={`/${tag}/${data?.slug}`}>
                       learn more
                     </ButtonPrimary>
                   </Text>

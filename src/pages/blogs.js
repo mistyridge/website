@@ -31,7 +31,7 @@ export default function Blogs() {
         title="Blogs"
         description="The Misty Ridge Retreat B&B can host a variety of small and large events such as weddings, yoga retreats, honey moons, and more! Ask as about the packages we can offer for you upcoming event!"
       />
-      <OffersDynamic datas={blogs} />
+      <OffersDynamic datas={blogs} title='Blogs' tag='blogs' />
       <InfoBanner />
     </Layout>
   )

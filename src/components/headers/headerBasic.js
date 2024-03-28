@@ -340,7 +340,13 @@ export default function HeaderBasic({ blogs , events }) {
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
                 </li>
-                <Dropdown>
+                <li>
+                  <StyledLink to="/events">events</StyledLink>
+                </li>
+                <li>
+                  <StyledLink to="/blogs">blogs</StyledLink>
+                </li>
+                {/* <Dropdown>
                   <StyledLink to="/events">
                     events
                     <FaAngleDown size={20} />
@@ -369,7 +375,7 @@ export default function HeaderBasic({ blogs , events }) {
                       </li>
                     ))}
                   </ul>
-                </Dropdown>
+                </Dropdown> */}
                 <li>
                   <GetQuoteMobile
                     href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"

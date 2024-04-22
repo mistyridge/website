@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { FaAngleDown } from "react-icons/fa"
@@ -252,9 +252,14 @@ const Burger = styled.div`
   }
 `
 
-export default function HeaderBasic() {
+export default function HeaderBasic({ blogs , events }) {
   const [nav, navOpen] = useState(false)
   const [scrolled, setScrolled] = useState(true)
+
+  console.log(events , blogs, "cvsdv")
+
+  const blogData = blogs || [];
+  const eventData = events || [];
 
   function toggleMenu() {
     navOpen(!nav)
@@ -335,6 +340,42 @@ export default function HeaderBasic() {
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
                 </li>
+               {eventData?.length > 0 && <li>
+                  <StyledLink to="/events">events</StyledLink>
+                </li>}
+               {blogData?.length > 0 && <li>
+                  <StyledLink to="/blogs">blogs</StyledLink>
+                </li>}
+                {/* <Dropdown>
+                  <StyledLink to="/events">
+                    events
+                    <FaAngleDown size={20} />
+                  </StyledLink>
+                  <ul>
+                    {eventData.map(( node ) => (
+                      <li key={node?.slug}>
+                        <StyledLink to={`/events/${node?.slug}`}>
+                          {node?.title}
+                        </StyledLink>
+                      </li>
+                    ))}
+                  </ul>
+                </Dropdown>
+                <Dropdown>
+                  <StyledLink to="/blogs">
+                    blogs
+                    <FaAngleDown size={20} />
+                  </StyledLink>
+                  <ul>
+                    {blogData.map(( node ) => (
+                      <li key={node?.slug}>
+                        <StyledLink to={`/blogs/${node?.slug}`}>
+                          {node?.title}
+                        </StyledLink>
+                      </li>
+                    ))}
+                  </ul>
+                </Dropdown> */}
                 <li>
                   <GetQuoteMobile
                     href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"

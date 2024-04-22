@@ -1,0 +1,42 @@
+.wrap {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 12%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.headingTwo{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.imageWrap {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.imageContainer {
+  max-width: 495px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.doc-wrap {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}

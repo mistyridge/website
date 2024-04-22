@@ -33,7 +33,6 @@ export const getAllEvents = () => ({
 })
 
 export const getBlog = (slug) => {
-  console.log('Slug:', slug); // Logging the slug here
 
   return {
     query: gql`
@@ -61,7 +60,6 @@ export const getBlog = (slug) => {
             thumbnail {
               url
             }
-            author
           }
         }
       }
@@ -70,7 +68,6 @@ export const getBlog = (slug) => {
 };
 
 export const getEvent = (slug) => {
-  console.log('Slug:', slug); // Logging the slug here
 
   return {
     query: gql`
@@ -98,7 +95,6 @@ export const getEvent = (slug) => {
             thumbnail {
               url
             }
-            author
           }
         }
       }

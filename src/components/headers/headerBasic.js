@@ -340,12 +340,12 @@ export default function HeaderBasic({ blogs , events }) {
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
                 </li>
-                <li>
+               {eventData?.length > 0 && <li>
                   <StyledLink to="/events">events</StyledLink>
-                </li>
-                <li>
+                </li>}
+               {blogData?.length > 0 && <li>
                   <StyledLink to="/blogs">blogs</StyledLink>
-                </li>
+                </li>}
                 {/* <Dropdown>
                   <StyledLink to="/events">
                     events

@@ -12,6 +12,7 @@
     "babel-plugin-styled-components": "^2.1.1",
     "components": "^0.1.0",
     "contentful": "^10.8.5",
+    "dotenv": "^16.4.5",
     "gatsby": "^5.10.0",
     "gatsby-plugin-gatsby-cloud": "^5.10.0",
     "gatsby-plugin-google-analytics": "^5.10.0",
@@ -37,6 +38,7 @@
     "react-icons": "^4.8.0",
     "react-slick": "^0.29.0",
     "styled": "^1.0.0",
+    "typescript": "^5.4.4",
     "use-query-params": "^2.2.1"
   },
   "devDependencies": {

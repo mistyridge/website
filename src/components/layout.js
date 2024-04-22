@@ -20,7 +20,6 @@ export default function Layout({ children }) {
       const { data } = await client.query({
         query: getAllBlogs().query,
       })
-      console.log(data, "cksocm")
       setBlogs(data.blogCollection.items)
     } catch (err) {
       console.error("Error fetching data:", err)
@@ -32,7 +31,6 @@ export default function Layout({ children }) {
       const { data } = await client.query({
         query: getAllEvents().query,
       })
-      console.log(data, "cksocm")
       setEvents(data.eventsCollection.items)
     } catch (err) {
       console.error("Error fetching data:", err)

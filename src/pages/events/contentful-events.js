@@ -31,11 +31,6 @@ const ContentfulBlog = ({pageContext}) => {
   const rawAsset = events?.method?.links?.assets?.block || {}
   const image = getImage(events?.thumbnail?.url)
 
-  console.log(rawData,rawAsset,'dbms')
-  console.log(events,'dbxlms')
-
-
-
   const options = {
     renderNode: {
       [BLOCKS.HEADING_2]: (node, children) => { 

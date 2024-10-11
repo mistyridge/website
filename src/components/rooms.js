@@ -123,7 +123,7 @@ export default function Rooms() {
                   href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"
                   target="_blank"
                 >
-                  book now
+                  book this room now
                 </AnchorOutline>
                 <p>
                   2+ nights: <span className="bold">$140</span> per night <br />
@@ -149,7 +149,7 @@ export default function Rooms() {
                   href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"
                   target="_blank"
                 >
-                  book now
+                  book this room now
                 </AnchorOutline>
                 <p>
                   2+ nights: <span className="bold">$140</span> per night <br />
@@ -172,7 +172,7 @@ export default function Rooms() {
                   href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"
                   target="_blank"
                 >
-                  book now
+                  book this room now
                 </AnchorOutline>
                 <p>
                   2+ nights: <span className="bold">$140</span> per night <br />
@@ -197,7 +197,7 @@ export default function Rooms() {
                   href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"
                   target="_blank"
                 >
-                  book now
+                  book this room now
                 </AnchorOutline>
                 <p>
                   2+ nights: <span className="bold">$140</span> per night <br />

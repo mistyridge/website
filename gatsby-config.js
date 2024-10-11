@@ -45,7 +45,20 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        sitemap: `https://www.mistyridgeretreatbandb.com/sitemap/sitemap-index.xml`,
+        policy: [
+          {
+            userAgent: "*",
+            allow: ["/"],
+            disallow: [],
+          }
+        ],
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -20,7 +20,7 @@ export default function Suites() {
         description="We offer cozy spa-like beds and bathrooms that you won’t want to leave!"
         to1="/"
         link1="Home"
-        to2="/suits"
+        to2="/suites"
         link2="Rooms & Suites"
       />
 

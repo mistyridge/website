@@ -31,8 +31,8 @@ export default function YogaRetreats() {
         description="Welcome to the Misty Ridge B&B that can be the perfect setting for you to lead a yoga retreat or workshop!"
         to1="/"
         link1="Home"
-        to2="/events-and-groups"
-        link2="Events & Groups"
+        to2="/groups-and-events"
+        link2="Groups & Events"
         to3="/groups-and-events/yoga-retreats"
         link3="Yoga Retreats"
       />

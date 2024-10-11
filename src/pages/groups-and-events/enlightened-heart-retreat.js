@@ -32,8 +32,8 @@ export default function HeartRetreat() {
         description="A women’s weekend of connection, healing, sacred sound and heart medicine."
         to1="/"
         link1="Home"
-        to2="/events-and-groups"
-        link2="Events & Groups"
+        to2="/groups-and-events"
+        link2="Groups & Events"
         to3="/groups-and-events/enlightened-heart-retreat"
         link3="Enlightened Heart Retreat"
       />

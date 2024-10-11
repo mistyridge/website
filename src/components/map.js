@@ -49,7 +49,7 @@ export default function Map() {
         <Container>
           <Flex>
             <div className="spacing">
-              <h2 className="title caps bold">what's around?</h2>
+              <h1 className="title caps bold">what's around?</h1>
               <p>
                 Enjoy day trips to local attractions. The Misty Ridge Retreat
                 Bed & Breakfast is centrally located to many nearby attractions.

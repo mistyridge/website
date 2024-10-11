@@ -60,7 +60,7 @@ export default function BannerPrimary(props) {
               link2={props.link2}
             />
             <hr />
-            <h2 className="title bold">{props.title}</h2>
+            <h1 className="title bold">{props.title}</h1>
           </div>
           <p className="body--small caps">{props.description}</p>
         </Container>

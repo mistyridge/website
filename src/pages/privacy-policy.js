@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
               <div>
                 <strong>
                   <span style={{ fontSize: "26px" }}>
-                    <span data-custom-class="title">PRIVACY NOTICE</span>
+                    <h1 data-custom-class="title">PRIVACY NOTICE</h1>
                   </span>
                 </strong>
               </div>

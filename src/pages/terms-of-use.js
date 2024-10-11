@@ -50,11 +50,11 @@ export default function TermsOfUse() {
                           style={{ textAlign: "left", lineHeight: "1.5" }}
                         >
                           <strong>
-                            <span
+                            <h1
                               style={{ lineHeight: "22.5px", fontSize: "26px" }}
                             >
                               TERMS OF USE
-                            </span>
+                            </h1>
                           </strong>
                         </div>
                         <div

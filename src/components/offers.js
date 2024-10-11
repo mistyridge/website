@@ -21,9 +21,7 @@ export default function Offers() {
   return (
     <Section>
       <Container className="spacing">
-        <h2 className="title accent bold caps">
-          special offers for groups & events
-        </h2>
+        <h1 className="title accent bold caps">special offers for groups & events</h1>
         <div className="spacing">
           <Offer>
             <Flex>

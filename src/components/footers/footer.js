@@ -6,7 +6,7 @@ import { Info } from "../info"
 import { Container } from "../layoutComponents"
 import { ButtonInline } from "../buttons"
 
-import Logo from "../../images/logo.svg"
+import Logo from "../../images/logo.png"
 import AaronTonnerWebSolutionsLogo from "../../images/aaron-tonner-web-solutions-logo.svg"
 import Facebook from "../../images/socials/facebook.svg"
 import Instagram from "../../images/socials/instagram.svg"
@@ -189,7 +189,7 @@ export default function Footer() {
       <FooterWrapper className="spacing">
         <Container className="spacing-lg">
           <LogoContainer>
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="misty ridge retreatlogo" />
           </LogoContainer>
           <hr />
           <Flex>

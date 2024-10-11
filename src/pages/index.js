@@ -20,8 +20,11 @@ import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import CallToAction from "../components/callToAction"
 
+
 import CtaImg from "../images/bed-and-breakfast-calgary.jpeg"
 import Hero2 from "../components/heros/hero2"
+
+import video from "../video/video.mp4"
 
 const device = {
   md: "48em",
@@ -71,17 +74,23 @@ export default function Home() {
       <Hero />
       <Section>
         <Container className="spacing">
-          <h2 className="title bold caps center accent">yurt grand opening!</h2>
-          <p className="center">
-            Mark your calendar for <span className="bold">June 17th, 2023</span>{" "}
-            as we will be holding the grand opening for our Yurt on the Misty
-            Ridge B&B Retreat!
+          <h2 className="title bold caps center accent">Welcome to the Sacred Dream Lodge!</h2>
+          <p>
+            Located in the rolling foothills of Alberta, just an hour away from the Canadian Rockies. 
+          </p>
+          <p>
+            The Sacred Dream Lodge is the dream of Allen & Kathryn Kessler, owners & curators. Their dream was to create a sacred place for all our relations to dream, meditate, heal, relax & rejuvenate. A place for celebration & community.
+          </p>
+          <p> 
+            At 800 square feet, the lodge is the perfect venue for small intimate weddings, family get togethers, yoga retreats, house concerts and more. It is our honor to share the Sacred Dream Lodge with you!
+          </p>
+          <p> 
+            - Allen & Kathryn
           </p>
           <div>
-            <StaticImage src="../images/yurt.jpg" alt="calgary b&b yurt" />
-            <p className="body--small italics bold center">
-              The MRR team working hard over the May long weekend!
-            </p>
+            <video controls style={{ width: '50%', display: 'block', margin: '0 auto' }}>
+            <source src={video} type="video/mp4" />
+            </video>
           </div>
         </Container>
       </Section>

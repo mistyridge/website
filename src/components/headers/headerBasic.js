@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { FaAngleDown } from "react-icons/fa"
 
-import Logo from "../../images/logo.svg"
+import Logo from "../../images/logo.png"
 
 const device = {
   sm: "18em",
@@ -272,7 +272,7 @@ export default function HeaderBasic({ blogs , events }) {
           <Headertop>
             <LogoContainer>
               <Link to="/">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="misty ridge retreatlogo" />
               </Link>
             </LogoContainer>
             <ul>

@@ -74,23 +74,30 @@ export default function Home() {
       <Hero />
       <Section>
         <Container className="spacing">
-          <h2 className="title bold caps center accent">Welcome to the Sacred Dream Lodge!</h2>
-          <p>
-            Located in the rolling foothills of Alberta, just an hour away from the Canadian Rockies. 
-          </p>
-          <p>
-            The Sacred Dream Lodge is the dream of Allen & Kathryn Kessler, owners & curators. Their dream was to create a sacred place for all our relations to dream, meditate, heal, relax & rejuvenate. A place for celebration & community.
-          </p>
-          <p> 
-            At 800 square feet, the lodge is the perfect venue for small intimate weddings, family get togethers, yoga retreats, house concerts and more. It is our honor to share the Sacred Dream Lodge with you!
-          </p>
-          <p> 
-            - Allen & Kathryn
-          </p>
-          <div>
-            <video controls style={{ width: '50%', display: 'block', margin: '0 auto' }}>
-            <source src={video} type="video/mp4" />
-            </video>
+          <div style={{display: 'flex', justifyContent: 'space-between' }}>
+            <div>
+              <h2 className="title bold caps center accent">Welcome to the Sacred Dream Lodge!</h2>
+              <p>
+                Located in the rolling foothills of Alberta, just an hour away from the Canadian Rockies. 
+              </p>
+              <br></br>
+              <p>
+                The Sacred Dream Lodge is the dream of Allen & Kathryn Kessler, owners & curators. Their dream was to create a sacred place for all our relations to dream, meditate, heal, relax & rejuvenate. A place for celebration & community.
+              </p>
+              <br></br>
+              <p> 
+                At 800 square feet, the lodge is the perfect venue for small intimate weddings, family get togethers, yoga retreats, house concerts and more. It is our honor to share the Sacred Dream Lodge with you!
+              </p>
+              <br></br>
+              <p> 
+                - Allen & Kathryn
+              </p>
+          </div>
+            <div>
+              <video controls style={{ width: '50%', display: 'block', margin: '0 auto' }}>
+              <source src={video} type="video/mp4" />
+              </video>
+            </div>
           </div>
         </Container>
       </Section>

@@ -218,6 +218,10 @@ export default function Rooms() {
                   {" "}
                   <FaBath style={FontStyle} /> 1 bathroom per room
                 </p>
+                <p>
+                  {""}
+                  <FaBath style={FontStyle} /> Hot Tubs & Steam Room
+                </p>
                 <p className="caps">
                   {" "}
                   <FaBed style={FontStyle} /> 1 king bed per room

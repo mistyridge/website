@@ -27,7 +27,7 @@ export default function InfoBanner() {
             />
             <h3 className="body--large">location</h3>
             <p>
-              Located in Calgary's rolling Foothills at 112196 226 Ave W, AB.
+              Located in Calgary's rolling Foothills at 112196 266 Ave W, AB.
             </p>
             <AnchorSecondary
               href="https://www.google.com/maps/dir//misty+ridge+retreat/@50.8538226,-114.1909013,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x5371a19378bfc117:0x4b1d3734f8cbca7a!2m2!1d-114.1811073!2d50.8121791"

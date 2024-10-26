@@ -277,7 +277,7 @@ export default function Footer() {
               <p>
                 The Misty Ridge Retreat is designed for you to retreat from the
                 hustle and bustle of your everyday life. This unique 6.5 acre
-                property offers 3.5 kilometres of walking trails, and snow
+                property offers 3 kilometers of walking trails, and snow
                 shoeing or cross country skiing trails in the winter months. Our
                 property is located within the "dark sky" region where you can
                 enjoy impressive viewings of constellations, satellites, Space

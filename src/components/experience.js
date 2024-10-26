@@ -87,7 +87,7 @@ export default function Experience() {
           />
           <Item
             heading="6.5 acres of stunning scenery & walking trails"
-            description="Relax with nature and rediscover your inner peace by enjoying the stunning scenery of the wide open foothils anywhere on our 6.5 acres of land and immerse yourself in nature on our 3.5 km of walking trails."
+            description="Relax with nature and rediscover your inner peace by enjoying the stunning scenery of the wide open foothils anywhere on our 6.5 acres of land and immerse yourself in nature on our 3 km of walking trails."
             quote="Fantastic people! Fantastic hosts! Amazing views with top notch accommodations. I would recommend."
             name="Brad Dubeau"
           />

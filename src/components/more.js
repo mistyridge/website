@@ -31,7 +31,7 @@ export default function More() {
                 You won't run out of things to do on our 6.5 acres of land here
                 in the rolling foothills! There are plenty of great nearby spots
                 to get in some bird watching, or you can even stay out late at
-                night in our garden igloos to watch the passing by nature at
+                night in our gazebo deck to watch the passing by nature at
                 night!
               </p>
               <ButtonSecondaryLight to="/gallery">
@@ -62,7 +62,7 @@ export default function More() {
                   immerse yourself in nature at night
                 </p>
                 <p>
-                  We have built garden igloos for your pleasure! Peacefully
+                  We have built gazebo decks for your pleasure! Peacefully
                   immerse yourself in nature at night at you'll see wolves,
                   coyotes, owls, and more!
                 </p>

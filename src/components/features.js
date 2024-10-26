@@ -125,7 +125,7 @@ export default function Features() {
           <Flex>
             <center className="spacing">
               <Feature
-                title="3.5 km of walking trails"
+                title="3 KM of walking trails"
                 description="Veer off on your own into the beautiful rolling foothills for a quiet and relaxing walk in nature."
               />
               <Feature
@@ -143,8 +143,8 @@ export default function Features() {
             </center>
             <center className="spacing">
               <Feature
-                title="garden igloos"
-                description="A unique way to peacefully immerse yourself among the wildlife."
+                title="Gazebo Decks"
+                description="A unique way to enjoy the outdoors while keeping the bugs out and staying cool in the shade."
               />
               <Feature
                 title="massage therapy"

@@ -56,10 +56,11 @@ export default function HeroBasic() {
     <HeroWrapper>
       <Container className="spacing">
         <Text className="spacing">
-          <h2 className="title bold">
+          <h1 className="title bold">
             experience a magical b&b retreat in the beautiful rolling foothills
             of alberta
-          </h2>
+          </h1>
+          <p>Escape to tranquility and reconnect with nature at our serene bed & breakfast. Nestled in the heart of Alberta's rolling foothills, our retreat offers breathtaking views, personalized service, and unforgettable experiences for those seeking relaxation and rejuvenation.</p>
         </Text>
         <ButtonWrapper>
           <ButtonSecondaryLight to="/reviews">

@@ -313,16 +313,6 @@ export default function HeaderBasic({ blogs , events }) {
                         yoga retreats
                       </StyledLink>
                     </li>
-                    <li>
-                      <StyledLink to="/groups-and-events/practitioner-training">
-                        practitioner training
-                      </StyledLink>
-                    </li>
-                    <li>
-                      <StyledLink to="/groups-and-events/enlightened-heart-retreat">
-                        enlightened heart retreat
-                      </StyledLink>
-                    </li>
                   </ul>
                 </Dropdown>
                 <li>

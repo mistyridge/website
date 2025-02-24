@@ -296,6 +296,9 @@ export default function HeaderBasic({ blogs , events }) {
               </Burger>
               <NavList nav={nav}>
                 <li>
+                  <StyledLink to="/">home</StyledLink>
+                </li>
+                <li>
                   <StyledLink to="/about">about</StyledLink>
                 </li>
                 <Dropdown>

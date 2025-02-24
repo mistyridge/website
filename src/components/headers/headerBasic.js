@@ -302,18 +302,18 @@ export default function HeaderBasic({ blogs , events }) {
                   <StyledLink to="/about">about</StyledLink>
                 </li>
                 <Dropdown>
-                  <StyledLink to="/groups-and-events">
-                    groups & events
+                  <StyledLink to="/services">
+                    Services
                     <FaAngleDown size={20} />
                   </StyledLink>
                   <ul>
                     <li>
-                      <StyledLink to="/groups-and-events/weddings">
+                      <StyledLink to="/services/weddings">
                         weddings
                       </StyledLink>
                     </li>
                     <li>
-                      <StyledLink to="/groups-and-events/yoga-retreats">
+                      <StyledLink to="/services/yoga-retreats">
                         yoga retreats
                       </StyledLink>
                     </li>

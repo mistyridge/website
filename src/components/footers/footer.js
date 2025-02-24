@@ -246,12 +246,12 @@ export default function Footer() {
                   <StyledLink to="/about">about</StyledLink>
                 </li>
                 <li>
-                  <StyledLink to="/groups-and-events/weddings">
+                  <StyledLink to="/services/weddings">
                     wedding events
                   </StyledLink>
                 </li>
                 <li>
-                  <StyledLink to="/groups-and-events/yoga-retreats">
+                  <StyledLink to="/services/yoga-retreats">
                     yoga retreats
                   </StyledLink>
                 </li>

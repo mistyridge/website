@@ -47,9 +47,9 @@ export default function Weddings() {
         description="Welcome to the Misty Ridge B&B that can be the perfect setting for your small intimate wedding located just outside of Calgary on our 6.5 acres of unique land in the beautiful rolling foothills of Alberta"
         to1="/"
         link1="Home"
-        to2="/groups-and-events"
+        to2="/services"
         link2="Groups & Events"
-        to3="/groups-and-events/weddings"
+        to3="/services/weddings"
         link3="Weddings"
       />
 

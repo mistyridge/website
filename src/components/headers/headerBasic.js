@@ -5,6 +5,7 @@ import { Container } from "../layoutComponents"
 import { FaAngleDown } from "react-icons/fa"
 
 import Logo from "../../images/logo.png"
+import phoneIcon from "../../images/phone_icon.png"
 
 const device = {
   sm: "18em",
@@ -373,6 +374,12 @@ export default function HeaderBasic({ blogs , events }) {
                   >
                     <span>book now</span>
                   </GetQuoteMobile>
+                </li>
+                <li>
+                  <NavPhone href="tel:403-805-8256">
+                    <img src={phoneIcon} alt="phone icon" style={{ marginRight: '5px', height: '20px', width: '20px' }} />
+                    <span>403-805-8256</span>
+                  </NavPhone>
                 </li>
               </NavList>
             </Nav>

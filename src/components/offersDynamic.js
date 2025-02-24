@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 import { Container, Section, Flex } from "./layoutComponents"
 import { ButtonPrimary } from "./buttons"
 import '../styles/blogs.css'
@@ -35,7 +36,9 @@ export default function OffersDynamic({tag ,title, datas }) {
                   />
                   </div>
                   <Text className="spacing">
-                    <h3 className="heading bold caps">{data?.title}</h3>
+                    <h3 className="heading bold caps">
+                    <Link to={`/${tag}/${data?.slug}`}>{data?.title}</Link>
+                    </h3>
                     <Review>
                       <p className="italics">
                         Click below to learn more.

@@ -1,8 +1,14 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 import { Container, Section, Flex } from "./layoutComponents"
 import { ButtonPrimary } from "./buttons"
 import '../styles/blogs.css'
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+`
 
 const Offer = styled.div`
   box-shadow: var(--shadow-light-accent);
@@ -35,18 +41,12 @@ export default function OffersDynamic({tag ,title, datas }) {
                   />
                   </div>
                   <Text className="spacing">
-                    <h3 className="heading bold caps">{data?.title}</h3>
+                    <h3 className="heading bold caps">
+                    <StyledLink to={`/${tag}/${data?.slug}`}>{data?.title}</StyledLink>
+                    </h3>
                     <Review>
                       <p className="italics">
-                        "Misty Ridge was the perfect venue for our small
-                        wedding! Allen and Kathryn were gracious hosts who made
-                        every effort to make our family feel at home and create
-                        the right vibe for our special day. The venue features
-                        very comfortable themed rooms (nice beds!), spa-like
-                        bathrooms, absolutely stunning scenery and walking
-                        trails, an abundance of outdoor gathering spaces, and
-                        the truly magical “Turtle Hill” where our ceremony was
-                        held." <br /> ~ Luke Rosewood
+                        Click below to learn more.
                       </p>
                     </Review>
                     <ButtonPrimary to={`/${tag}/${data?.slug}`}>

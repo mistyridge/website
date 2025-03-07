@@ -44,7 +44,7 @@ export default function Offers() {
                     our ceremony was held." <br /> ~ Luke Rosewood
                   </p>
                 </Review>
-                <ButtonPrimary to="/groups-and-events/weddings">
+                <ButtonPrimary to="/services/weddings">
                   learn more
                 </ButtonPrimary>
               </Text>
@@ -53,7 +53,7 @@ export default function Offers() {
           <Offer>
             <Flex>
               <StaticImage
-                src="../images/yoga/calgary-bed-and-breakfast-yoga-retreat.jpg"
+                src="../images/yoga/yoga-in-lodge.jpg"
                 alt="bed and breakfast in calgary being used for yoga retreat"
                 className="stretch"
               />
@@ -77,7 +77,7 @@ export default function Offers() {
                     Institute
                   </p>
                 </Review>
-                <ButtonPrimary to="/groups-and-events/yoga-retreats">
+                <ButtonPrimary to="/services/yoga-retreats">
                   learn more
                 </ButtonPrimary>
               </Text>

@@ -6,6 +6,7 @@ import { getAllBlogs, getBlog, getEvent } from "../../../queries"
 import '../../styles/blogs.css'
 import { BLOCKS } from '@contentful/rich-text-types';
 import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
 const ContentfulBlog = ({pageContext}) => {
   const { slug } = pageContext;
@@ -30,9 +31,24 @@ const ContentfulBlog = ({pageContext}) => {
   const rawData = events?.method || []
   const rawAsset = events?.method?.links?.assets?.block || {}
   const image = getImage(events?.thumbnail?.url)
+  const findAssetById = (id) =>
+    events?.method?.links?.assets?.block.find(asset => asset.sys.id === id);
+
 
   const options = {
     renderNode: {
+      [BLOCKS.EMBEDDED_ASSET]: (node) => {
+        const assetId = node.data.target.sys.id;
+        const asset = findAssetById(assetId);
+        if (!asset) return null;
+        return (
+          <img
+            src={asset.url}
+            alt={asset.title || "Embedded Image"}
+            style={{ maxWidth: "100%", height: "auto" }}
+            />
+        );
+      },
       [BLOCKS.HEADING_2]: (node, children) => { 
         console.log(node, children, 'thisISNO');
         return<h2 className="headingTwo">{children}</h2>},
@@ -58,6 +74,7 @@ const ContentfulBlog = ({pageContext}) => {
 
   return (
    <Layout>
+     <SEO title={title} />
      <div className="wrap">
       <div className="imageWrap">
       <img src={events?.thumbnail?.url} alt="Your Image" />

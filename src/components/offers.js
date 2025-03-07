@@ -53,7 +53,7 @@ export default function Offers() {
           <Offer>
             <Flex>
               <StaticImage
-                src="../images/yoga/calgary-bed-and-breakfast-yoga-retreat.jpg"
+                src="../images/yoga/yoga-in-lodge.jpg"
                 alt="bed and breakfast in calgary being used for yoga retreat"
                 className="stretch"
               />

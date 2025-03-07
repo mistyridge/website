@@ -5,6 +5,11 @@ import { Container, Section, Flex } from "./layoutComponents"
 import { ButtonPrimary } from "./buttons"
 import '../styles/blogs.css'
 
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+`
+
 const Offer = styled.div`
   box-shadow: var(--shadow-light-accent);
 `
@@ -37,7 +42,7 @@ export default function OffersDynamic({tag ,title, datas }) {
                   </div>
                   <Text className="spacing">
                     <h3 className="heading bold caps">
-                    <Link to={`/${tag}/${data?.slug}`}>{data?.title}</Link>
+                    <StyledLink to={`/${tag}/${data?.slug}`}>{data?.title}</StyledLink>
                     </h3>
                     <Review>
                       <p className="italics">

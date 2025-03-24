@@ -126,8 +126,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -152,8 +152,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -175,8 +175,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -200,8 +200,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>

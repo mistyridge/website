@@ -71,7 +71,7 @@ export default function YogaRetreats() {
                   4 large and comfortable bedrooms with spa-like bathrooms
                 </li>
                 <li>
-                  6.5 acres of outdoor gathering spaces, hot tub, firepits, and
+                  6.5 acres of outdoor gathering spaces, firepits, and
                   more
                 </li>
                 <li>Massage and Sound Therapy on-site</li>

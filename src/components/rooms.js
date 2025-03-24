@@ -220,7 +220,7 @@ export default function Rooms() {
                 </p>
                 <p>
                   {""}
-                  <FaBath style={FontStyle} /> Hot Tubs & Steam Room
+                  <FaBath style={FontStyle} /> Steam Room
                 </p>
                 <p className="caps">
                   {" "}

@@ -168,23 +168,24 @@ export default function Home() {
             5 star foothills bed and breakfast - the ultimate calgary, alberta
             retreat
           </h2>
-          <GridAuto>
+           <GridAuto>
+
             <Review
               review="I went for a retreat/workshop led by Allen & Kathryn Kessler, the hosts and owners of Misty Ridge Retreat B&B. Misty Ridge is located in the rolling foothills a bit southwest of Calgary and is a fantastic place to connect with nature. The bedrooms are sizeable (bigger than some hotel/motel rooms I've stayed in!) and have very comfortable beds which are adjustable by remote control. The dining room features large windows that offer a view of the foothills and wildlife. It's a fantastic place to relax."
               name="Tom Christiansen"
               date="April 2022"
             />
             <Review
-              review="Kathryn, Allan, and their sweet pup Marvin have created the utmost oasis for your relaxation pleasure. Every single aspect of their home was tailored for their guests' comfort. iPhone and Android chargers nestled beside every spa bed. Individual face cloths in the bathroom. Shampoo, conditioner, soap all provided. I slept so deeply for the first time in 4 years in these amazing spa beds - must must must! Turtle Hill is magical, and a true escape from real life. Breakfast truly felt like it was cooked with love, and Al's spice mix was next level (thanks for the jar to take home with us!). You will not regret a stay here - my only regret was not staying longer. I will be back."
-              name="Rachel McLachlan"
-              date="April 2020"
-            />
-            <Review
               review="I travel to Calgary on business regularily and I used to stay in a downtown hotel until I got an invite to stay at the Misty Ridge B&B. Now I book all my stays at Misty Ridge when I am in town. Allen and Kathryn who own the B&B are great hosts and make you feel very welcome. The B&B has all of the comforts of home plus an incredible view of the foot hills and the local wildlife. My company is also happy with this arrangement as this option is less expensive compared to downtown hotels."
               name="Rob Henshaw"
               date="June 2020"
             />
-          </GridAuto>
+            <Review
+              review="Misty Ridge is an absolute paradise! Nestled in the rolling foothills, it has all the qualities of being in the country, and only a short drive from Calgary. Al and Kathryn are the most amazing and accommodating hosts, who went above and beyond to ensure our stay was nothing short of perfect! The stunning views, modern rooms, star-gazing ..., and the best ginger snaps on earth, were only a few of the many highlights of our stay, we even saw some elk crossing through the property!"
+              name="Reid Stanek"
+              date="May 2019"
+            />
+           </GridAuto>
         </Container>
       </Section>
       <BgWrapper>

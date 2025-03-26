@@ -115,8 +115,7 @@ export default function Rooms() {
                 alt="calgary b&b suite"
               />
               <p>
-                Lower level, with private walk out to sitting area next to hot
-                tub, views of nature and city skyline.
+                Lower level, with private walk out to sitting area and steam room with a cozy fireplace nearby, views of nature, and city skyline.
               </p>
               <ButtonWrapper>
                 <AnchorOutline

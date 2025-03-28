@@ -82,7 +82,7 @@ export default function Weddings() {
                   Themed bedrooms and spa-like bathrooms for the Bride & Groom
                 </li>
                 <li>
-                  6.5 acres of outdoor gathering spaces, hot tub, firepits, and
+                  6.5 acres of outdoor gathering spaces, firepits, and
                   more
                 </li>
                 <li>Massage and Sound Therapy on site!</li>
@@ -174,8 +174,8 @@ export default function Weddings() {
                 land nestled in the rolling foothills of Alberta, just outside
                 of Calgary! We offer separate rooms for the groom and bride to
                 prepare before the ceremony, and you and your family can even
-                enjoy the hot tub and stargazing at the end of your wedding day
-                for reflection!
+                enjoy a beautiful stargazing experience at the end of your 
+                wedding day for reflection!
               </p>
             </div>
           </GridTwo>

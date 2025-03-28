@@ -54,19 +54,6 @@ export default function Experience() {
           />
         </FlexMobileOpp>
         <Flex>
-          <StaticImage
-            className="stretch"
-            src="../images/hot-tub-stargazing-at-bb.jpg"
-            alt=""
-          />
-          <Item
-            heading="hot tub stargazing"
-            description="Close out your evening by enjoying a soak in the hot tub while admiring the impressive viewings of the dark night sky where you’ll see constellations and northern lights!"
-            quote="I love the fact that there is a hot meal waiting at the end of a busy day and I can close out the evening by enjoying a soak in the hot tub and admiring the view"
-            name="Rob Henshaw"
-          />
-        </Flex>
-        <FlexMobileOpp>
           <Item
             heading="small town shopping"
             description="We are centrally located to many small towns that offer a unique shopping experience, or you can pop into the city for larger shopping centres."
@@ -78,8 +65,8 @@ export default function Experience() {
             src="../images/small-town-shopping.jpg"
             alt=""
           />
-        </FlexMobileOpp>
-        <Flex>
+        </Flex>
+        <FlexMobileOpp>
           <StaticImage
             className="stretch"
             src="../images/walking-trails-at-calgary-bb.jpg"
@@ -91,7 +78,7 @@ export default function Experience() {
             quote="Fantastic people! Fantastic hosts! Amazing views with top notch accommodations. I would recommend."
             name="Brad Dubeau"
           />
-        </Flex>
+        </FlexMobileOpp>
       </Container>
     </Section>
   )

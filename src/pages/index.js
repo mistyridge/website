@@ -168,7 +168,8 @@ export default function Home() {
             5 star foothills bed and breakfast - the ultimate calgary, alberta
             retreat
           </h2>
-          <GridAuto>
+           <GridAuto>
+
             <Review
               review="I went for a retreat/workshop led by Allen & Kathryn Kessler, the hosts and owners of Misty Ridge Retreat B&B. Misty Ridge is located in the rolling foothills a bit southwest of Calgary and is a fantastic place to connect with nature. The bedrooms are sizeable (bigger than some hotel/motel rooms I've stayed in!) and have very comfortable beds which are adjustable by remote control. The dining room features large windows that offer a view of the foothills and wildlife. It's a fantastic place to relax."
               name="Tom Christiansen"
@@ -180,11 +181,11 @@ export default function Home() {
               date="June 2020"
             />
             <Review
-              review="Misty Ridge is an absolute paradise! Nestled in the rolling foothills, it has all the qualities of being in the country, and only a short drive from Calgary. Al and Kathryn are the most amazing and accommodating hosts, who went above and beyond to ensure our stay was nothing short of perfect! The stunning views, modern rooms, star-gazing from the hot tub, and the best ginger snaps on earth, were only a few of the many highlights of our stay, we even saw some elk crossing through the property!"
+              review="Misty Ridge is an absolute paradise! Nestled in the rolling foothills, it has all the qualities of being in the country, and only a short drive from Calgary. Al and Kathryn are the most amazing and accommodating hosts, who went above and beyond to ensure our stay was nothing short of perfect! The stunning views, modern rooms, star-gazing ..., and the best ginger snaps on earth, were only a few of the many highlights of our stay, we even saw some elk crossing through the property!"
               name="Reid Stanek"
               date="May 2019"
             />
-          </GridAuto>
+           </GridAuto>
         </Container>
       </Section>
       <BgWrapper>

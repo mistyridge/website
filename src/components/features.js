@@ -175,7 +175,7 @@ export default function Features() {
             <FlexColumn>
               {" "}
               <FaSpa style={FontStyle} />{" "}
-              <p className="caps">hot tub, spa, pool</p>
+              <p className="caps">spa & pool</p>
             </FlexColumn>
             <FlexColumn>
               {" "}

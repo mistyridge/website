@@ -115,8 +115,7 @@ export default function Rooms() {
                 alt="calgary b&b suite"
               />
               <p>
-                Lower level, with private walk out to sitting area next to hot
-                tub, views of nature and city skyline.
+                Lower level, with private walk out to sitting area and steam room with a cozy fireplace nearby, views of nature, and city skyline.
               </p>
               <ButtonWrapper>
                 <AnchorOutline
@@ -126,8 +125,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -152,8 +151,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -175,8 +174,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -200,8 +199,8 @@ export default function Rooms() {
                   book this room now
                 </AnchorOutline>
                 <p>
-                  2+ nights: <span className="bold">$140</span> per night <br />
-                  1 night: <span className="bold">$190</span> per night
+                  2+ nights: <span className="bold">$150</span> per night <br />
+                  1 night: <span className="bold">$200</span> per night
                 </p>
               </ButtonWrapper>
             </Item>
@@ -220,7 +219,7 @@ export default function Rooms() {
                 </p>
                 <p>
                   {""}
-                  <FaBath style={FontStyle} /> Hot Tubs & Steam Room
+                  <FaBath style={FontStyle} /> Steam Room
                 </p>
                 <p className="caps">
                   {" "}

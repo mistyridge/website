@@ -6,6 +6,8 @@ import '../../styles/blogs.css'
 import { BLOCKS } from '@contentful/rich-text-types';
 import Layout from "../../components/layout"
 
+// Trigger Deployment
+
 const ContentfulBlog = ({pageContext}) => {
   const { slug } = pageContext;
   const [blogs, setBlogs] = React.useState(null)

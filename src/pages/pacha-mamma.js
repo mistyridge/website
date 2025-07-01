@@ -3,6 +3,7 @@ import Layout from "../components/pachalayout"
 import PachaTopBar from "../components/pachaTopBar"
 import Hero from "../components/heros/pachaHero"
 import Reviews from "../components/pachaReviews"
+import Treatments from "../components/pachaTreatments"
 
 export default function PachaMammaPage() {
   return (
@@ -10,6 +11,7 @@ export default function PachaMammaPage() {
       <PachaTopBar />
       <Hero />
       <Reviews />
+      <Treatments />
     </Layout>
   )
 }

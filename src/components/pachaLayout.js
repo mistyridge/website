@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import SEO from "./seo"
-import HeaderBasic from "./headers/headerBasic"
-import Footer from "./footers/footer"
+import HeaderBasic from "./headers/pachaHeaderBasic"
+import Footer from "./footers/pachaFooter"
 import { getAllBlogs, getAllEvents } from "../../queries"
 import client from "../../client"
 

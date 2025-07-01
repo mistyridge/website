@@ -6,7 +6,7 @@ import { Info } from "../info"
 import { Container } from "../layoutComponents"
 import { ButtonInline } from "../buttons"
 
-import Logo from "../../images/logo.png"
+import Logo from "../../images/pachalogo.svg"
 import AaronTonnerWebSolutionsLogo from "../../images/aaron-tonner-web-solutions-logo.svg"
 import Facebook from "../../images/socials/facebook.svg"
 import Instagram from "../../images/socials/instagram.svg"
@@ -179,7 +179,7 @@ const Author = styled.div`
   }
 
   img {
-    width: 150px;
+    width: 250px;
   }
 `
 
@@ -189,7 +189,7 @@ export default function Footer() {
       <FooterWrapper className="spacing">
         <Container className="spacing-lg">
           <LogoContainer>
-            <img src={Logo} alt="misty ridge retreatlogo" />
+            <img src={Logo} alt="" />
           </LogoContainer>
           <hr />
           <Flex>
@@ -198,14 +198,12 @@ export default function Footer() {
               <ul>
                 <li>
                   <FlexContact>
-                    <a href="tel: 403-805-8256">{Info.tel1}</a>
+                    <a href="tel: 403-874-3131">{Info.tel1}</a>
                   </FlexContact>
                 </li>
                 <li>
                   <FlexContact>
-                    <a href="mailto: mistyridgeretreatbb@gmail.com">
-                      {Info.mail1}
-                    </a>
+                    <a href="mailto: info@3drtinc.com">{Info.mail1}</a>
                   </FlexContact>
                 </li>
                 <li>
@@ -222,67 +220,37 @@ export default function Footer() {
               <Socials>
                 <div>
                   <a
-                    target="_blank"
-                    href="https://www.facebook.com/mistyridgeretreatbb/"
+                    target="black"
+                    href="https://www.facebook.com/pachamammamassage/?ref=page_internal/"
                   >
-                    <img src={Facebook} alt="misty ridge retreat" />
+                    <img
+                      src={Facebook}
+                      alt="Pacha Mamma Massage & Sound Therapy - massage and sound therapy calgary"
+                    />
                   </a>
                   <a
-                    target="_blank"
-                    href="https://www.instagram.com/mistyridgeretreat/"
+                    target="blank"
+                    href="https://ca.linkedin.com/in/pachamamma"
                   >
-                    <img src={Instagram} alt="misty ridge retreat" />
+                    <img
+                      src={Linkedin}
+                      alt="Pacha Mamma Massage & Sound Therapy - massage and sound therapy calgary"
+                    />
                   </a>
                 </div>
               </Socials>
             </FlexItem>
-            <FlexItem>
-              <p className="heading">quick links</p>
-              <ul>
-                <li>
-                  <StyledLink to="/">home</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/about">about</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/services/weddings">
-                    wedding events
-                  </StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/services/yoga-retreats">
-                    yoga retreats
-                  </StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/suites">rooms & suites</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/explore">explore</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/reviews">reviews</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/gallery">gallery</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/contact">contact</StyledLink>
-                </li>
-              </ul>
-            </FlexItem>
             <FlexItem className="spacing">
               <p className="heading">about us</p>
               <p>
-                The Misty Ridge Retreat is designed for you to retreat from the
-                hustle and bustle of your everyday life. This unique 6.5 acre
-                property offers 3 kilometers of walking trails, and snow
-                shoeing or cross country skiing trails in the winter months. Our
-                property is located within the "dark sky" region where you can
-                enjoy impressive viewings of constellations, satellites, Space
-                Station and on occasion, the Northern Lights. Come relax and
-                reconnect with nature to rediscover your inner peace!
+                We are registered massage therapists based in Calgary, located
+                at the Misty Ridge Retreat B&B. We understand that regular
+                massage helps the body to relax and improve circulation
+                resulting in the body going through a natural healing process.
+                We specialize in combining therapeutic relaxation massage with
+                sound therapy, craniosacral massage therapy, and distance
+                healing & reiki. You can easily book your appointment on our
+                online calander here.
               </p>
             </FlexItem>
           </Flex>
@@ -293,10 +261,20 @@ export default function Footer() {
               <li>{Info.name}</li>
               <li>All Rights Reserved</li>
               <li>
-              <StyledLink to="/terms-of-use" target="_blank">Terms of use</StyledLink>
+                <a
+                  target="blank"
+                  href="https://www.bookwithkathryn.com/terms-of-use"
+                >
+                  Terms of use
+                </a>
               </li>
               <li>
-              <StyledLink to="/privacy-policy" target="_blank">Privacy Policy</StyledLink>
+                <a
+                  target="blank"
+                  href="https://www.bookwithkathryn.com/privacy-policy"
+                >
+                  Privacy Policy
+                </a>
               </li>
             </ul>
           </Copyright>

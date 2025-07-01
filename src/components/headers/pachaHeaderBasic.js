@@ -1,11 +1,11 @@
 import React, { useState } from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { FaAngleDown } from "react-icons/fa"
+import { IoMdArrowDropdown } from "react-icons/io"
 
-import Logo from "../../images/logo.png"
-import phoneIcon from "../../images/phone_icon.png"
+import pachaLogo from "../../images/pachalogo.svg"
 
 const device = {
   sm: "18em",
@@ -58,6 +58,10 @@ const NavPhone = styled.a`
   :focus {
     opacity: 0.7;
   }
+
+  @media screen and (max-width: 32em) {
+    display: none;
+  }
 `
 
 const Headerbottom = styled.div`
@@ -100,7 +104,7 @@ const NavList = styled.ul`
     display: ${({ nav }) => (nav ? "flex" : "none")};
     align-items: center;
     position: absolute;
-    top: 146.4px;
+    top: 82px;
 
     left: 0;
     right: 0;
@@ -119,7 +123,7 @@ const NavList = styled.ul`
   }
 `
 
-const GetQuote = styled.a`
+const GetQuote = styled(props => <Link {...props} />)`
   cursor: pointer;
   display: inline-block;
   font-size: var(--fs-sm);
@@ -129,44 +133,16 @@ const GetQuote = styled.a`
   text-decoration: none;
   padding: 1em 1.33em;
   transition: all 0.25s linear;
+
+  background: var(--clr-accent);
   color: var(--txt-light);
   border: 1px solid var(--clr-accent);
-  background: var(--clr-accent);
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
 
   &:hover {
-    border: 1px solid var(--clr-accent-darker);
     background: var(--clr-accent-darker);
-  }
-
-  @media screen and (max-width: 32.5em) {
-    display: none;
-  }
-`
-const GetQuoteMobile = styled.a`
-  cursor: pointer;
-  display: inline-block;
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-button);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1em 1.33em;
-  transition: all 0.25s linear;
-  color: var(--txt-light);
-  border: 1px solid var(--clr-accent);
-  background: var(--clr-accent);
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
-
-  &:hover {
-    border: 1px solid var(--clr-accent-darker);
-    background: var(--clr-accent-darker);
-  }
-
-  @media screen and (min-width: 32.5em) {
-    display: none;
+    color: var(--txt-light);
   }
 `
 
@@ -253,14 +229,9 @@ const Burger = styled.div`
   }
 `
 
-export default function HeaderBasic({ blogs , events }) {
+export default function HeaderBasic() {
   const [nav, navOpen] = useState(false)
   const [scrolled, setScrolled] = useState(true)
-
-  console.log(events , blogs, "cvsdv")
-
-  const blogData = blogs || [];
-  const eventData = events || [];
 
   function toggleMenu() {
     navOpen(!nav)
@@ -273,118 +244,20 @@ export default function HeaderBasic({ blogs , events }) {
           <Headertop>
             <LogoContainer>
               <Link to="/">
-                <img src={Logo} alt="misty ridge retreatlogo" />
+                <img src={pachaLogo} alt="Pacha Mammalogo" />
               </Link>
             </LogoContainer>
             <ul>
               <li>
-                <GetQuote
-                  href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"
-                  target="_blank"
-                >
+                <NavPhone href="tel: 403-805-8256">(403) 805-8256</NavPhone>
+              </li>
+              <li>
+                <GetQuote to="/book-an-appointment">
                   <span>book now</span>
                 </GetQuote>
               </li>
             </ul>
           </Headertop>
-          <Headerbottom>
-            <Nav>
-              <Burger nav={nav} onClick={toggleMenu}>
-                <div />
-                <div />
-                <div />
-              </Burger>
-              <NavList nav={nav}>
-                <li>
-                  <StyledLink to="/">home</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/about">about</StyledLink>
-                </li>
-                <Dropdown>
-                  <StyledLink to="/services">
-                    Services
-                    <FaAngleDown size={20} />
-                  </StyledLink>
-                  <ul>
-                    <li>
-                      <StyledLink to="/services/weddings">
-                        weddings
-                      </StyledLink>
-                    </li>
-                    <li>
-                      <StyledLink to="/services/yoga-retreats">
-                        yoga retreats
-                      </StyledLink>
-                    </li>
-                  </ul>
-                </Dropdown>
-                <li>
-                  <StyledLink to="/suites">suites</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/explore">explore</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/reviews">reviews</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/gallery">gallery</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/contact">contact</StyledLink>
-                </li>
-               {eventData?.length > 0 && <li>
-                  <StyledLink to="/events">events</StyledLink>
-                </li>}
-               {blogData?.length > 0 && <li>
-                  <StyledLink to="/blogs">blogs</StyledLink>
-                </li>}
-                {/* <Dropdown>
-                  <StyledLink to="/events">
-                    events
-                    <FaAngleDown size={20} />
-                  </StyledLink>
-                  <ul>
-                    {eventData.map(( node ) => (
-                      <li key={node?.slug}>
-                        <StyledLink to={`/events/${node?.slug}`}>
-                          {node?.title}
-                        </StyledLink>
-                      </li>
-                    ))}
-                  </ul>
-                </Dropdown>
-                <Dropdown>
-                  <StyledLink to="/blogs">
-                    blogs
-                    <FaAngleDown size={20} />
-                  </StyledLink>
-                  <ul>
-                    {blogData.map(( node ) => (
-                      <li key={node?.slug}>
-                        <StyledLink to={`/blogs/${node?.slug}`}>
-                          {node?.title}
-                        </StyledLink>
-                      </li>
-                    ))}
-                  </ul>
-                </Dropdown> */}
-                <li>
-                  <GetQuoteMobile
-                    href="https://checkout.lodgify.com/kathryn-kessler/en/?currency=CAD#/231709"
-                    target="_blank"
-                  >
-                    <span>book now</span>
-                  </GetQuoteMobile>
-                </li>
-              </NavList>
-            </Nav>
-            <NavPhone href="tel:403-805-8256">
-              <img src={phoneIcon} alt="phone icon" style={{ marginRight: '5px', height: '20px', width: '20px' }} />
-              <span>403-805-8256</span>
-            </NavPhone>
-          </Headerbottom>
         </Container>
       </Header>
     </div>

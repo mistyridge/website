@@ -6,6 +6,9 @@ import Reviews from "../components/pachaReviews"
 import Treatments from "../components/pachaTreatments"
 import Why from "../components/pachaWhy"
 import Team from "../components/pachaTeam"
+import Clinic from "../components/pachaClinicInfoGrid"
+import FeaturedFaq from "../components/pachaFaq"
+import Calander from "../components/calander"
 
 export default function PachaMammaPage() {
   return (
@@ -16,6 +19,9 @@ export default function PachaMammaPage() {
       <Treatments />
       <Why />
       <Team />
+      <Clinic />
+      <FeaturedFaq />
+      <Calander />
     </Layout>
   )
 }

@@ -21,6 +21,8 @@ const Flex = styled.div`
 
 export default function Clinic() {
   return (
+    <Section>
+      <Container>
         <div>
           <GridThree>
             <Item>
@@ -70,5 +72,7 @@ export default function Clinic() {
             </Item>
           </GridThree>
         </div>
+       </Container>
+    </Section> 
   )
 }

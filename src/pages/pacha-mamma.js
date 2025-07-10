@@ -20,8 +20,9 @@ export default function PachaMammaPage() {
       <Why />
       <Team />
       <Clinic />
-      <FeaturedFaq />
       <Calander />
+      <FeaturedFaq />
+      <PachaTopBar />
     </Layout>
   )
 }

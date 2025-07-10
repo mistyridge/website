@@ -9,6 +9,12 @@ const Wrapper = styled.div`
   background: var(--clr-light-secondary);
   padding: 2em;
   border-radius: var(--br);
+
+  min-height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   a {
     text-decoration: underline;
   }
@@ -80,8 +86,8 @@ const AllReviews = () => {
           />
           <Review
             name="Tom Christiansen"
-            review="I love starting my weekend with a massage at Pacha Mamma. Kathryn is very personable and professional, and she has done wonders on my neck and back. I used to have pain just rolling out of bed. Thanks to her work, that pain is now gone. She has also shown me some stretches to target specific muscles, which have helped as well.
-Kathryn was recommended to me by a friend. At first I was put off a bit by the longish drive (I come from just north of Downtown Calgary), but it only takes me about 40 minutes to get there and I've come to really like the trip through the rolling foothills. It's basically my biweekly retreat."
+             review="I love starting my weekend with a massage at Pacha Mamma. Kathryn is very personable and professional, and she has done wonders on my neck and back. I used to have pain just rolling out of bed. Thanks to her work, that pain is now gone. She has also shown me some stretches to target specific muscles, which have helped as well..."
+// Kathryn was recommended to me by a friend. At first I was put off a bit by the longish drive (I come from just north of Downtown Calgary), but it only takes me about 40 minutes to get there and I've come to really like the trip through the rolling foothills. It's basically my biweekly retreat."
             date="August 2021"
           />
           <Review

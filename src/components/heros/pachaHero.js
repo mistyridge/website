@@ -13,7 +13,7 @@ const HeroWrapper = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 85vh;
+  min-height: 65vh;
   height: 100%;
 
   display: flex;

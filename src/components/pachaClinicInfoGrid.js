@@ -19,6 +19,15 @@ const Flex = styled.div`
   }
 `
 
+// Add this styled component for purple icons
+const PurpleIcon = styled.div`
+  img {
+    filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(270deg) brightness(0.55) contrast(1.2);
+    width: 25px;
+    height: 25px;
+  }
+`
+
 export default function Clinic() {
   return (
     <Section>
@@ -27,10 +36,12 @@ export default function Clinic() {
           <GridThree>
             <Item>
               <Flex>
-                <StaticImage
-                  src="../images/location.svg"
-                  alt="massage clinic location"
-                />
+                <PurpleIcon>
+                  <StaticImage
+                    src="../images/location.svg"
+                    alt="massage clinic location"
+                  />
+                </PurpleIcon>
                 <p className="caps bold">location</p>
               </Flex>
               <p className="body--small">
@@ -46,7 +57,9 @@ export default function Clinic() {
             </Item>
             <Item>
               <Flex>
-                <StaticImage src="../images/hours.svg" alt="massage clinic hours" />
+                <PurpleIcon>
+                  <StaticImage src="../images/hours.svg" alt="massage clinic hours" />
+                </PurpleIcon>
                 <p className="caps bold">hours</p>
               </Flex>
               <p className="body--small">
@@ -59,10 +72,12 @@ export default function Clinic() {
             </Item>
             <Item>
               <Flex>
-                <StaticImage
-                  src="../images/phone.svg"
-                  alt="massage clinic contact"
-                />
+                <PurpleIcon>
+                  <StaticImage
+                    src="../images/phone.svg"
+                    alt="massage clinic contact"
+                  />
+                </PurpleIcon>
                 <p className="caps bold">contact</p>
               </Flex>
               <p className="body--small">

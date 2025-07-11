@@ -263,7 +263,7 @@ export default function Footer() {
               <li>
                 <a
                   target="blank"
-                  href="https://www.bookwithkathryn.com/terms-of-use"
+                  href="https://www.mistyridgeretreatbandb.com/terms-of-use"
                 >
                   Terms of use
                 </a>
@@ -271,7 +271,7 @@ export default function Footer() {
               <li>
                 <a
                   target="blank"
-                  href="https://www.bookwithkathryn.com/privacy-policy"
+                  href="https://www.mistyridgeretreatbandb.com/privacy-policy"
                 >
                   Privacy Policy
                 </a>

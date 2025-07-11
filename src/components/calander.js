@@ -10,7 +10,7 @@ const Frame = styled.iframe`
 
 export default function Calander() {
   return (
-    <Section>
+    <Section id="calendar">
       <Container className="spacing">
         <Frame src="https://secure.massagezone.biz/pachamammamassagetherapy/index.php?page=tpltsched2_modmain&embedid=540&sessionType=min" />
         <Flex>

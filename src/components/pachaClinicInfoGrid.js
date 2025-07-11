@@ -22,13 +22,40 @@ const Flex = styled.div`
 // Add this styled component for purple icons
 const PurpleIcon = styled.div`
   img {
-    filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(270deg) brightness(0.55) contrast(1.2);
+    filter: invert(37%) sepia(29%) saturate(1387%) hue-rotate(253deg) brightness(71%) contrast(90%);
     width: 25px;
     height: 25px;
   }
 `
 
+// Styled button that looks like your underlined links
+const ScrollButton = styled.button`
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-button);
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  text-decoration: underline;
+  background: none;
+  border: none;
+  padding: 0;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
 export default function Clinic() {
+  const scrollToCalendar = () => {
+    const calendarElement = document.getElementById('calendar')
+    if (calendarElement) {
+      calendarElement.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <Section>
       <Container>
@@ -66,9 +93,9 @@ export default function Clinic() {
                 Open for appointments Wednesday, Thursday, Friday from 1 PM - 6 PM,
                 or contact us anytime!
               </p>
-              <ButtonUnderline to="/book-an-appointment">
+              <ScrollButton onClick={scrollToCalendar}>
                 book online
-              </ButtonUnderline>
+              </ScrollButton>
             </Item>
             <Item>
               <Flex>

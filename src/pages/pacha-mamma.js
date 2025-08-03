@@ -5,6 +5,7 @@ import Hero from "../components/heros/pachaHero"
 import Reviews from "../components/pachaReviews"
 import Treatments from "../components/pachaTreatments"
 import Why from "../components/pachaWhy"
+import Interrupt from "../components/pachaInterrupt"  
 import Team from "../components/pachaTeam"
 import Clinic from "../components/pachaClinicInfoGrid"
 import FeaturedFaq from "../components/pachaFaq"
@@ -24,6 +25,7 @@ export default function PachaMammaPage() {
         <Hero />
         <Reviews />
         <Treatments />
+        <Interrupt />
         <Why />
         <Team />
         <Clinic />

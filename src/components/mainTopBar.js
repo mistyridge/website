@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 const TopBarWrapper = styled.div`
-  background: rgba(232, 84, 20, 0.5); /* Transparent orange background */
+  background: rgba(126, 86, 158, 0.5); /* Purple background for Pacha Mamma */
   color: var(--txt-light);
   padding: 0.5em 0;
   text-align: center;

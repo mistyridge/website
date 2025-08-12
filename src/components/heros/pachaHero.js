@@ -34,7 +34,32 @@ const Text = styled.div`
   width: 100%;
 `
 
+const ScrollButton = styled.button`
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-button);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: none;
+  padding: 1em 2em;
+  background: var(--clr-accent);
+  color: var(--txt-light);
+  border-radius: var(--br);
+
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
 export default function HeroBasic() {
+  const scrollToCalendar = () => {
+    const calendarElement = document.getElementById("calendar")
+    if (calendarElement) {
+      calendarElement.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
     <HeroWrapper>
       <Container>
@@ -51,9 +76,9 @@ export default function HeroBasic() {
             enjoy a truly relaxing experience on the drive out to our location
             through the beautiful rolling foothills.{" "}
           </p>
-          <ButtonPrimary to="/book-an-appointment">
+          <ScrollButton onClick={scrollToCalendar}>
             book your massage
-          </ButtonPrimary>
+          </ScrollButton>
         </Text>
       </Container>
     </HeroWrapper>

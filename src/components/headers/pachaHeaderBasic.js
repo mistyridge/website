@@ -123,16 +123,16 @@ const NavList = styled.ul`
   }
 `
 
-const GetQuote = styled(props => <Link {...props} />)`
+const ScrollButton = styled.button`
   cursor: pointer;
   display: inline-block;
   font-size: var(--fs-sm);
   font-weight: var(--fw-button);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  text-decoration: none;
   padding: 1em 1.33em;
   transition: all 0.25s linear;
+  border: none;
 
   background: var(--clr-accent);
   color: var(--txt-light);
@@ -237,6 +237,13 @@ export default function HeaderBasic() {
     navOpen(!nav)
   }
 
+  const scrollToCalendar = () => {
+    const calendarElement = document.getElementById("calendar")
+    if (calendarElement) {
+      calendarElement.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
     <div>
       <Header>
@@ -252,9 +259,9 @@ export default function HeaderBasic() {
                 <NavPhone href="tel: 403-805-8256">(403) 805-8256</NavPhone>
               </li>
               <li>
-                <GetQuote to="/book-an-appointment">
+                <ScrollButton onClick={scrollToCalendar}>
                   <span>book now</span>
-                </GetQuote>
+                </ScrollButton>
               </li>
             </ul>
           </Headertop>

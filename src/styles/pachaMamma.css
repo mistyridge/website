@@ -1,0 +1,9 @@
+.pacha-wrapper {
+  --clr-accent: #7e569e;
+  --clr-accent-lighter: #9c75c3;
+  --clr-accent-darker: #693f82;
+  --clr-dark: #333333;
+  --clr-light: #f4e8ff;
+  --txt-light: #fff;
+  --txt-dark: #333333;
+}

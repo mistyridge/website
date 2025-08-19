@@ -317,6 +317,11 @@ export default function HeaderBasic({ blogs , events }) {
                         yoga retreats
                       </StyledLink>
                     </li>
+                    <li>
+                      <StyledLink to="/pacha-mamma">
+                        massage
+                      </StyledLink>
+                    </li>
                   </ul>
                 </Dropdown>
                 <li>

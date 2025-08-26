@@ -19,8 +19,6 @@ import { AnchorInline, ButtonInline } from "../components/buttons"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import CallToAction from "../components/callToAction"
-import MainTopBar from "../components/mainTopBar"
-
 
 import CtaImg from "../images/bed-and-breakfast-calgary.jpeg"
 import Hero2 from "../components/heros/hero2"
@@ -72,7 +70,6 @@ export default function Home() {
         title="5 Star Bed and Breakfast Near Calgary, AB | Alberta B&B Retreat"
         description="Welcome to The Misty Ridge Retreat B&B! Our Bed and Breakfast Calgary, AB is just minutes from the city and nestled in the beautiful rolling Alberta Foothills. Book your stay and enjoy a retreat to relax and reconnect with nature and to get away from it all!"
       />
-      <MainTopBar />
       <Hero />
       <Section>
         <Container className="spacing">

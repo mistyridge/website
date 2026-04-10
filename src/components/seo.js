@@ -6,7 +6,14 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import favicon from "../images/favicon.png"
 
-const SEO = ({ title, description, image, article }) => {
+const SEO = ({
+  title,
+  description,
+  image,
+  article,
+  noindex,
+  loadPortableSearchBar,
+}) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -30,6 +37,8 @@ const SEO = ({ title, description, image, article }) => {
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
+      {noindex && <meta name="googlebot" content="noindex, nofollow" />}
 
       <link rel="icon" href={favicon} />
 
@@ -58,11 +67,13 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
-      <script
-        type="text/javascript"
-        class=""
-        src="https://cdn.lodgify.com/portable-search-bar/1.60.6/renderPortableSearchBar.js"
-      ></script>
+      {loadPortableSearchBar && (
+        <script
+          type="text/javascript"
+          class=""
+          src="https://cdn.lodgify.com/portable-search-bar/1.60.6/renderPortableSearchBar.js"
+        ></script>
+      )}
     </Helmet>
   )
 }
@@ -74,6 +85,8 @@ SEO.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
   article: PropTypes.bool,
+  noindex: PropTypes.bool,
+  loadPortableSearchBar: PropTypes.bool,
 }
 
 SEO.defaultProps = {
@@ -81,6 +94,8 @@ SEO.defaultProps = {
   description: null,
   image: null,
   article: false,
+  noindex: false,
+  loadPortableSearchBar: true,
 }
 
 const query = graphql`

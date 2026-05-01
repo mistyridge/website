@@ -48,7 +48,9 @@ export default function Calander() {
           <p>
             Pacha Mamma is no longer using the online appointment app. To book
             your massage or sound therapy appointment, please call or text us
-            directly and we&apos;ll be happy to arrange a time with you.
+            directly, or email us at{" "}
+            <strong>massage@pachamammamassage.com</strong>, and we&apos;ll be
+            happy to arrange a time with you.
           </p>
           <BookingActions>
             <BookingLink href="tel:+14038058256">
@@ -56,6 +58,9 @@ export default function Calander() {
             </BookingLink>
             <BookingLink href="sms:+14038058256">
               text (403) 805-8256
+            </BookingLink>
+            <BookingLink href="mailto:massage@pachamammamassage.com">
+              email massage@pachamammamassage.com
             </BookingLink>
           </BookingActions>
         </BookingCard>

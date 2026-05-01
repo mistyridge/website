@@ -3,16 +3,67 @@ import styled from "styled-components"
 import Help from "./pachaHelp"
 import { Container, Section, Flex } from "./layoutComponents"
 
-const Frame = styled.iframe`
-  height: 700px;
-  width: 100%;
+const BookingCard = styled.div`
+  padding: 2em;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: var(--shadow-light);
+
+  p {
+    max-width: 40rem;
+  }
+`
+
+const BookingActions = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+`
+
+const BookingLink = styled.a`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9em 1.4em;
+  border-radius: 4px;
+  background: var(--clr-accent);
+  color: var(--txt-light);
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    opacity: 0.92;
+  }
 `
 
 export default function Calander() {
   return (
     <Section id="calendar">
       <Container className="spacing">
-        <Frame src="https://secure.massagezone.biz/pachamammamassagetherapy/index.php?page=tpltsched2_modmain&embedid=540&sessionType=min" />
+        <BookingCard className="spacing">
+          <div>
+            <h2 className="caps">book an appointment</h2>
+            <hr />
+          </div>
+          <p>
+            Pacha Mamma is no longer using the online appointment app. To book
+            your massage or sound therapy appointment, please call or text us
+            directly, or email us at{" "}
+            <strong>massage@pachamammamassage.com</strong>, and we&apos;ll be
+            happy to arrange a time with you.
+          </p>
+          <BookingActions>
+            <BookingLink href="tel:+14038058256">
+              call (403) 805-8256
+            </BookingLink>
+            <BookingLink href="sms:+14038058256">
+              text (403) 805-8256
+            </BookingLink>
+            <BookingLink href="mailto:massage@pachamammamassage.com">
+              email massage@pachamammamassage.com
+            </BookingLink>
+          </BookingActions>
+        </BookingCard>
         <Flex>
           <div className="spacing">
             <div>
